@@ -88,13 +88,13 @@ A,B はプログラム内部で自動的に決定される。決定されるタ�
 
 5. A が B から受けとった座標を元に座標変換行列を計算する **（WIP）**
 
-   > [!CAUTION]
-   > 座標変換行列は現状作成されていません
+> [!CAUTION]
+> 座標変換行列は現状作成されていません
 
-   - ![](img/PreparedView.png)
+- ![](img/PreparedView.png)
 
-   1. A が座標変換行列を作成し、保存
-   2. `設定を完了する` ボタンを押してメインのアプリケーションに遷移する
+1.  A が座標変換行列を作成し、保存
+2.  `設定を完了する` ボタンを押してメインのアプリケーションに遷移する
 
 ## データ形式
 
@@ -131,3 +131,75 @@ resBothIndexFingerCoordinate{
    ]
 }
 ```
+
+# プロジェクト構造
+
+```
+mulipeer-share-coordinate-template
+├── AppModel.swift
+├── ContentView.swift
+├── DevicePosition.swift
+├── ImmersiveView.swift
+├── Info.plist
+├── PeerManager.swift
+├── ToggleImmersiveSpaceButton.swift
+├── TransformationMatrixPreparationView.swift
+├── mulipeer-share-coordinate-template.entitlements
+└── mulipeer_share_coordinate_templateApp.swift
+```
+
+## `AppModel.swift`
+
+デフォルトのまま
+
+## `PeerManager.swift`
+
+P2P 通信と座標の交換を行うための機能を持つ
+
+### プロパティ
+
+`transformationMatrixPreparationState` : 座標変換行列の計算のための座標交換の状態管理
+
+`rightIndexFingerCoordinates` : A が受け取った右手の人差し指の座標
+
+`bothIndexFingerCoordinate` : A が受け取った両手の人差し指の座標
+
+`myRightIndexFingerCoordinates` : 自分の右手の人差し指の座標
+
+`myBothIndexFingerCoordinate` : 自分の両手の人差し指の座標
+
+`isUpdatePeerManagerRightIndexFingerCoordinates` : 右手の人差し指の座標を更新するかどうか（false になると更新が止まる）
+
+`isUpdatePeerManagerBothIndexFingerCoordinate` : 両手の人差し指の座標を更新するかどうか（false になると更新が止まる）
+
+`receivedMessage` : 受け取ったメッセージ
+
+`sendMessagePeerList` : メッセージを送信する相手のリスト
+
+`isHost` : 自分がホストかどうか
+
+`peerID` : 自分の peerID
+
+## `ContentView.swift`
+
+immersive を起動するためのボタンと、座標変換のための行列を計算する機能
+
+## `TransformationMatrixPreparationView.swift`
+
+座標変換行列を計算するための画面
+
+[#接続のステップ](#接続のステップ)に示した機能を実装した View
+
+## `ToggleImmersiveSpaceButton.swift`
+
+デフォルトのまま
+
+## `DevicePosition.swift`
+
+ハンドトラッキングを行うための機能
+
+`ImmersionView` で使用する
+
+## `ImmersiveView.swift`
+
+ハンドトラッキングのデータを `PeerManager` に同期するために用いる
