@@ -65,34 +65,6 @@ struct ImmersiveView: View {
             [matrix.columns.3.x, matrix.columns.3.y, matrix.columns.3.z, matrix.columns.3.w]
         ]
     }
-    
-    func reqRightIndexFingerCoordinates() {
-        let rightIndexFingerCoordinates = convertToNestedArray(matrix: latestRightIndexFingerCoordinates)
-        let json = try! JSONEncoder().encode(RightIndexFingerCoordinates(unixTime: Int(Date().timeIntervalSince1970), rightIndexFingerCoordinates: rightIndexFingerCoordinates))
-        let jsonStr = String(data: json, encoding: .utf8) ?? ""
-        peerManager.sendMessage("resRightIndexFingerCoordinates\(jsonStr)")
-    }
-    
-    func reqBothIndexFingerCoordinate() {
-        let leftIndexFingerCoordinates = convertToNestedArray(matrix: latestLeftIndexFingerCoordinates)
-        let rightIndexFingerCoordinates = convertToNestedArray(matrix: latestRightIndexFingerCoordinates)
-        let indexFingerCoordinate = IndexFingerCoordinate(left: leftIndexFingerCoordinates, right: rightIndexFingerCoordinates)
-        let json = try! JSONEncoder().encode(BothIndexFingerCoordinate(unixTime: Int(Date().timeIntervalSince1970), indexFingerCoordinate: indexFingerCoordinate))
-        let jsonStr = String(data: json, encoding: .utf8) ?? ""
-        peerManager.sendMessage("resBothIndexFingerCoordinate\(jsonStr)")
-    }
-    
-    func myRightIndexFingerCoordinates() {
-        let rightIndexFingerCoordinates = convertToNestedArray(matrix: latestRightIndexFingerCoordinates)
-        peerManager.myRightIndexFingerCoordinates = RightIndexFingerCoordinates(unixTime: Int(Date().timeIntervalSince1970), rightIndexFingerCoordinates: rightIndexFingerCoordinates)
-    }
-    
-    func myBothIndexFingerCoordinate() {
-        let leftIndexFingerCoordinates = convertToNestedArray(matrix: latestLeftIndexFingerCoordinates)
-        let rightIndexFingerCoordinates = convertToNestedArray(matrix: latestRightIndexFingerCoordinates)
-        let indexFingerCoordinate = IndexFingerCoordinate(left: leftIndexFingerCoordinates, right: rightIndexFingerCoordinates)
-        peerManager.myBothIndexFingerCoordinate = BothIndexFingerCoordinate(unixTime: Int(Date().timeIntervalSince1970), indexFingerCoordinate: indexFingerCoordinate)
-    }
 }
 
 #Preview(immersionStyle: .mixed) {
