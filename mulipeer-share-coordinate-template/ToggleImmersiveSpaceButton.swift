@@ -42,7 +42,6 @@ struct ToggleImmersiveSpaceButton: View {
                                 // On unknown response, assume space did not open.
                                 appModel.immersiveSpaceState = .closed
                         }
-
                     case .inTransition:
                         // This case should not ever happen because button is disabled for this case.
                         break

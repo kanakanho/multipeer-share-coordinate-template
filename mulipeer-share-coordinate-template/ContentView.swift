@@ -9,16 +9,37 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-struct ContentView: View {
+enum SharedCoordinateState {
+    case prepare
+    case sharing
+    case shared
+}
 
+struct ContentView: View {
+    @Environment(AppModel.self) private var appModel
+    @ObservedObject var peerManager = PeerManager()
+    @State private var sharedCoordinateState: SharedCoordinateState = .prepare
+    
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
-            ToggleImmersiveSpaceButton()
+            NavigationStack {
+                switch sharedCoordinateState {
+                case .prepare:
+                    ToggleImmersiveSpaceButton()
+                        .onChange(of: appModel.immersiveSpaceState){
+                            if (appModel.immersiveSpaceState == .open){
+                                sharedCoordinateState = .sharing
+                            }
+                        }
+                case .sharing:
+                    VStack{
+                        TransformationMatrixPreparationView(peerManager:peerManager,sharedCoordinateState: $sharedCoordinateState)
+                    }
+                case .shared:
+                    Text("Shared Coordinate Ready")
+                }
+            }
+            Spacer()
         }
         .padding()
     }

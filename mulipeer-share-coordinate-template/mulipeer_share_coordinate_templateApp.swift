@@ -9,18 +9,18 @@ import SwiftUI
 
 @main
 struct mulipeer_share_coordinate_templateApp: App {
-
+    
     @State private var appModel = AppModel()
-
+    @StateObject private var peerManager = PeerManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(peerManager:peerManager)
                 .environment(appModel)
         }
-
+        
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
-            ImmersiveView()
-                .environment(appModel)
+            ImmersiveView(peerManager:peerManager)
                 .onAppear {
                     appModel.immersiveSpaceState = .open
                 }
@@ -29,5 +29,5 @@ struct mulipeer_share_coordinate_templateApp: App {
                 }
         }
         .immersionStyle(selection: .constant(.mixed), in: .mixed)
-     }
+    }
 }
