@@ -1,6 +1,6 @@
 //
 //  PeerManager.swift
-//  Multipeer-Connectivity-demo
+//  multipeer-share-coordinate-template
 //
 //  Created by blueken on 2024/12/02.
 //
@@ -67,7 +67,7 @@ class PeerManager: NSObject, ObservableObject {
     @Published var sendMessagePeerList: [MCPeerID] = []
     @Published var isHost: Bool!
     
-    private let serviceType = "mulipeer-p2p"
+    private let serviceType = "multipeer-p2p"
     @Published var peerID: MCPeerID!
     @Published var session: MCSession!
     private var advertiser: MCNearbyServiceAdvertiser!

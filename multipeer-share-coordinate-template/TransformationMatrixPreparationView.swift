@@ -1,6 +1,6 @@
 //
 //  TransformationMatrixPreparationView.swift
-//  multiplatform-mulipeer
+//  multipeer-share-coordinate-template
 //
 //  Created by blueken on 2024/12/18.
 //

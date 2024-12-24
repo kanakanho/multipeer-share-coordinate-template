@@ -4,8 +4,8 @@
 <dict>
 	<key>NSBonjourServices</key>
 	<array>
-		<string>_mulipeer-p2p._tcp</string>
-		<string>_mulipeer-p2p._udp</string>
+		<string>_multipeer-p2p._tcp</string>
+		<string>_multipeer-p2p._udp</string>
 	</array>
 	<key>NSHandsTrackingUsageDescription</key>
 	<string></string>
