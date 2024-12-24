@@ -1,6 +1,6 @@
 //
 //  ToggleImmersiveSpaceButton.swift
-//  mulipeer-share-coordinate-template
+//  multipeer-share-coordinate-template
 //
 //  Created by blueken on 2024/12/20.
 //

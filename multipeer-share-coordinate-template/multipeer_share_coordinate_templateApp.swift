@@ -1,6 +1,6 @@
 //
-//  mulipeer_share_coordinate_templateApp.swift
-//  mulipeer-share-coordinate-template
+//  multipeer_share_coordinate_templateApp.swift
+//  multipeer-share-coordinate-template
 //
 //  Created by blueken on 2024/12/20.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct mulipeer_share_coordinate_templateApp: App {
+struct multipeer_share_coordinate_templateApp: App {
     
     @State private var appModel = AppModel()
     @StateObject private var peerManager = PeerManager()

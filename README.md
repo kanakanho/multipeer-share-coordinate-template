@@ -135,7 +135,7 @@ resBothIndexFingerCoordinate{
 # プロジェクト構造
 
 ```
-mulipeer-share-coordinate-template
+multipeer-share-coordinate-template
 ├── AppModel.swift
 ├── ContentView.swift
 ├── DevicePosition.swift
@@ -144,8 +144,8 @@ mulipeer-share-coordinate-template
 ├── PeerManager.swift
 ├── ToggleImmersiveSpaceButton.swift
 ├── TransformationMatrixPreparationView.swift
-├── mulipeer-share-coordinate-template.entitlements
-└── mulipeer_share_coordinate_templateApp.swift
+├── multipeer-share-coordinate-template.entitlements
+└── multipeer_share_coordinate_templateApp.swift
 ```
 
 ## `AppModel.swift`

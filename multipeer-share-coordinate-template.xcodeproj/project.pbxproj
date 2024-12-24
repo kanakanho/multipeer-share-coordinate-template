@@ -16,38 +16,38 @@
 			containerPortal = EB6C0CA52D1514BC00DB17DE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EB6C0CAC2D1514BC00DB17DE;
-			remoteInfo = "mulipeer-share-coordinate-template";
+			remoteInfo = "multipeer-share-coordinate-template";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB6C0CAD2D1514BC00DB17DE /* mulipeer-share-coordinate-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mulipeer-share-coordinate-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6C0CAD2D1514BC00DB17DE /* multipeer-share-coordinate-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multipeer-share-coordinate-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6C0CB12D1514BC00DB17DE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		EB6C0CC82D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mulipeer-share-coordinate-templateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6C0CC82D1514BD00DB17DE /* multipeer-share-coordinate-templateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multipeer-share-coordinate-templateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EB6C0CCE2D1514BD00DB17DE /* Exceptions for "mulipeer-share-coordinate-template" folder in "mulipeer-share-coordinate-template" target */ = {
+		EB6C0CCE2D1514BD00DB17DE /* Exceptions for "multipeer-share-coordinate-template" folder in "multipeer-share-coordinate-template" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = EB6C0CAC2D1514BC00DB17DE /* mulipeer-share-coordinate-template */;
+			target = EB6C0CAC2D1514BC00DB17DE /* multipeer-share-coordinate-template */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EB6C0CAF2D1514BC00DB17DE /* mulipeer-share-coordinate-template */ = {
+		EB6C0CAF2D1514BC00DB17DE /* multipeer-share-coordinate-template */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				EB6C0CCE2D1514BD00DB17DE /* Exceptions for "mulipeer-share-coordinate-template" folder in "mulipeer-share-coordinate-template" target */,
+				EB6C0CCE2D1514BD00DB17DE /* Exceptions for "multipeer-share-coordinate-template" folder in "multipeer-share-coordinate-template" target */,
 			);
-			path = "mulipeer-share-coordinate-template";
+			path = "multipeer-share-coordinate-template";
 			sourceTree = "<group>";
 		};
-		EB6C0CCB2D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests */ = {
+		EB6C0CCB2D1514BD00DB17DE /* multipeer-share-coordinate-templateTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "mulipeer-share-coordinate-templateTests";
+			path = "multipeer-share-coordinate-templateTests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -74,9 +74,9 @@
 		EB6C0CA42D1514BC00DB17DE = {
 			isa = PBXGroup;
 			children = (
-				EB6C0CAF2D1514BC00DB17DE /* mulipeer-share-coordinate-template */,
+				EB6C0CAF2D1514BC00DB17DE /* multipeer-share-coordinate-template */,
 				EB6C0CB02D1514BC00DB17DE /* Packages */,
-				EB6C0CCB2D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests */,
+				EB6C0CCB2D1514BD00DB17DE /* multipeer-share-coordinate-templateTests */,
 				EB6C0CAE2D1514BC00DB17DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,8 +84,8 @@
 		EB6C0CAE2D1514BC00DB17DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB6C0CAD2D1514BC00DB17DE /* mulipeer-share-coordinate-template.app */,
-				EB6C0CC82D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests.xctest */,
+				EB6C0CAD2D1514BC00DB17DE /* multipeer-share-coordinate-template.app */,
+				EB6C0CC82D1514BD00DB17DE /* multipeer-share-coordinate-templateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB6C0CAC2D1514BC00DB17DE /* mulipeer-share-coordinate-template */ = {
+		EB6C0CAC2D1514BC00DB17DE /* multipeer-share-coordinate-template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB6C0CCF2D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "mulipeer-share-coordinate-template" */;
+			buildConfigurationList = EB6C0CCF2D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "multipeer-share-coordinate-template" */;
 			buildPhases = (
 				EB6C0CA92D1514BC00DB17DE /* Sources */,
 				EB6C0CAA2D1514BC00DB17DE /* Frameworks */,
@@ -114,19 +114,19 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EB6C0CAF2D1514BC00DB17DE /* mulipeer-share-coordinate-template */,
+				EB6C0CAF2D1514BC00DB17DE /* multipeer-share-coordinate-template */,
 			);
-			name = "mulipeer-share-coordinate-template";
+			name = "multipeer-share-coordinate-template";
 			packageProductDependencies = (
 				EB6C0CB22D1514BC00DB17DE /* RealityKitContent */,
 			);
-			productName = "mulipeer-share-coordinate-template";
-			productReference = EB6C0CAD2D1514BC00DB17DE /* mulipeer-share-coordinate-template.app */;
+			productName = "multipeer-share-coordinate-template";
+			productReference = EB6C0CAD2D1514BC00DB17DE /* multipeer-share-coordinate-template.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB6C0CC72D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests */ = {
+		EB6C0CC72D1514BD00DB17DE /* multipeer-share-coordinate-templateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB6C0CD42D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "mulipeer-share-coordinate-templateTests" */;
+			buildConfigurationList = EB6C0CD42D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "multipeer-share-coordinate-templateTests" */;
 			buildPhases = (
 				EB6C0CC42D1514BD00DB17DE /* Sources */,
 				EB6C0CC52D1514BD00DB17DE /* Frameworks */,
@@ -138,13 +138,13 @@
 				EB6C0CCA2D1514BD00DB17DE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EB6C0CCB2D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests */,
+				EB6C0CCB2D1514BD00DB17DE /* multipeer-share-coordinate-templateTests */,
 			);
-			name = "mulipeer-share-coordinate-templateTests";
+			name = "multipeer-share-coordinate-templateTests";
 			packageProductDependencies = (
 			);
-			productName = "mulipeer-share-coordinate-templateTests";
-			productReference = EB6C0CC82D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests.xctest */;
+			productName = "multipeer-share-coordinate-templateTests";
+			productReference = EB6C0CC82D1514BD00DB17DE /* multipeer-share-coordinate-templateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EB6C0CA82D1514BC00DB17DE /* Build configuration list for PBXProject "mulipeer-share-coordinate-template" */;
+			buildConfigurationList = EB6C0CA82D1514BC00DB17DE /* Build configuration list for PBXProject "multipeer-share-coordinate-template" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -180,8 +180,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB6C0CAC2D1514BC00DB17DE /* mulipeer-share-coordinate-template */,
-				EB6C0CC72D1514BD00DB17DE /* mulipeer-share-coordinate-templateTests */,
+				EB6C0CAC2D1514BC00DB17DE /* multipeer-share-coordinate-template */,
+				EB6C0CC72D1514BD00DB17DE /* multipeer-share-coordinate-templateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +223,7 @@
 /* Begin PBXTargetDependency section */
 		EB6C0CCA2D1514BD00DB17DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB6C0CAC2D1514BC00DB17DE /* mulipeer-share-coordinate-template */;
+			target = EB6C0CAC2D1514BC00DB17DE /* multipeer-share-coordinate-template */;
 			targetProxy = EB6C0CC92D1514BD00DB17DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -234,10 +234,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "mulipeer-share-coordinate-template/mulipeer-share-coordinate-template.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "multipeer-share-coordinate-template/multipeer-share-coordinate-template.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mulipeer-share-coordinate-template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"multipeer-share-coordinate-template/Preview Content\"";
 				DEVELOPMENT_TEAM = 8V93G3Y2W5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -249,7 +249,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.mulipeer-share-coordinate-template";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.multipeer-share-coordinate-template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -263,10 +263,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "mulipeer-share-coordinate-template/mulipeer-share-coordinate-template.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "multipeer-share-coordinate-template/multipeer-share-coordinate-template.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mulipeer-share-coordinate-template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"multipeer-share-coordinate-template/Preview Content\"";
 				DEVELOPMENT_TEAM = 8V93G3Y2W5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -278,7 +278,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.mulipeer-share-coordinate-template";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.multipeer-share-coordinate-template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -415,13 +415,13 @@
 				DEVELOPMENT_TEAM = 8V93G3Y2W5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.mulipeer-share-coordinate-templateTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.multipeer-share-coordinate-templateTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mulipeer-share-coordinate-template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mulipeer-share-coordinate-template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-share-coordinate-template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multipeer-share-coordinate-template";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -435,13 +435,13 @@
 				DEVELOPMENT_TEAM = 8V93G3Y2W5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.mulipeer-share-coordinate-templateTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.kajilab.multipeer-share-coordinate-templateTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mulipeer-share-coordinate-template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mulipeer-share-coordinate-template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-share-coordinate-template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multipeer-share-coordinate-template";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -449,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB6C0CA82D1514BC00DB17DE /* Build configuration list for PBXProject "mulipeer-share-coordinate-template" */ = {
+		EB6C0CA82D1514BC00DB17DE /* Build configuration list for PBXProject "multipeer-share-coordinate-template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB6C0CD22D1514BD00DB17DE /* Debug */,
@@ -458,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB6C0CCF2D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "mulipeer-share-coordinate-template" */ = {
+		EB6C0CCF2D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "multipeer-share-coordinate-template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB6C0CD02D1514BD00DB17DE /* Debug */,
@@ -467,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB6C0CD42D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "mulipeer-share-coordinate-templateTests" */ = {
+		EB6C0CD42D1514BD00DB17DE /* Build configuration list for PBXNativeTarget "multipeer-share-coordinate-templateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB6C0CD52D1514BD00DB17DE /* Debug */,
