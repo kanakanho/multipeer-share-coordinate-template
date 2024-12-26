@@ -34,16 +34,23 @@ class DevicePosition {
                     guard anchor.isTracked else { continue }
                     if anchor.chirality == .left {
                         latestHandTracking.left = anchor
-                        self.latestLeftIndexFingerCoordinates = anchor.originFromAnchorTransform
+                        // 腕と人差し指の指先の座標の取得
+                        guard let originTransform = latestHandTracking.left?.originFromAnchorTransform else { return }
+                        guard let handSkeletonAnchorTransform = latestHandTracking.left?.handSkeleton?.joint(.indexFingerTip).anchorFromJointTransform else { return }
+                        // 人差し指の指先の座標を計算
+                        latestLeftIndexFingerCoordinates = originTransform * handSkeletonAnchorTransform
                     } else if anchor.chirality == .right {
                         latestHandTracking.right = anchor
-                        self.latestRightIndexFingerCoordinates = anchor.originFromAnchorTransform
+                        // 腕と人差し指の指先の座標の取得
+                        guard let originTransform = latestHandTracking.right?.originFromAnchorTransform else { return }
+                        guard let handSkeletonAnchorTransform = latestHandTracking.right?.handSkeleton?.joint(.indexFingerTip).anchorFromJointTransform else { return }
+                        // 人差し指の指先の座標を計算
+                        latestLeftIndexFingerCoordinates = originTransform * handSkeletonAnchorTransform
                     }
                 default:
                     break
                 }
             }
         }
-        
-    }
+    }        
 }
