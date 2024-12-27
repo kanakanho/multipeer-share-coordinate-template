@@ -45,12 +45,12 @@ class DevicePosition {
                         guard let originTransform = latestHandTracking.right?.originFromAnchorTransform else { return }
                         guard let handSkeletonAnchorTransform = latestHandTracking.right?.handSkeleton?.joint(.indexFingerTip).anchorFromJointTransform else { return }
                         // 人差し指の指先の座標を計算
-                        latestLeftIndexFingerCoordinates = originTransform * handSkeletonAnchorTransform
+                        latestRightIndexFingerCoordinates = originTransform * handSkeletonAnchorTransform
                     }
                 default:
                     break
                 }
             }
         }
-    }        
+    }
 }
